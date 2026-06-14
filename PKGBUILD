@@ -24,7 +24,7 @@ sha256sums=('SKIP')
 
 build() {
     cd "${srcdir}/${_pkgname}-${pkgver}"
-    msgfmt locale/fa/LC_MESSAGES/parchdroid.po -o locale/fa/LC_MESSAGES/parchdroid.mo
+    msgfmt data/locale/fa/LC_MESSAGES/parchdroid.po -o data/locale/fa/LC_MESSAGES/parchdroid.mo
 }
 
 package() {
@@ -45,15 +45,15 @@ LAUNCHER
     chmod 755 "${pkgdir}/usr/bin/parchdroid"
 
     install -dm755 "${pkgdir}/usr/share/applications"
-    install -m644 parchdroid.desktop "${pkgdir}/usr/share/applications/"
+    install -m644 data/parchdroid.desktop "${pkgdir}/usr/share/applications/"
 
     install -dm755 "${pkgdir}/usr/share/locale/fa/LC_MESSAGES"
-    install -m644 locale/fa/LC_MESSAGES/parchdroid.mo "${pkgdir}/usr/share/locale/fa/LC_MESSAGES/"
+    install -m644 data/locale/fa/LC_MESSAGES/parchdroid.mo "${pkgdir}/usr/share/locale/fa/LC_MESSAGES/"
 
     install -dm755 "${pkgdir}/usr/share/icons/hicolor/scalable/apps"
-    install -m644 icons/hicolor/scalable/apps/com.parchlinux.parchdroid.svg \
+    install -m644 data/icons/hicolor/scalable/apps/com.parchlinux.parchdroid.svg \
         "${pkgdir}/usr/share/icons/hicolor/scalable/apps/"
 
     install -dm755 "${pkgdir}/usr/share/licenses/${pkgname}"
-    install -m644 LICENSE "${pkgdir}/usr/share/licenses/${pkgname}/"
+    install -m644 data/LICENSE "${pkgdir}/usr/share/licenses/${pkgname}/"
 }
