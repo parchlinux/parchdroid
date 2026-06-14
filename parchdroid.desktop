@@ -1,0 +1,13 @@
+[Desktop Entry]
+Type=Application
+Name=Android App Support
+Name[fa]=پشتیبانی از برنامه‌های اندروید
+Comment=Run Android applications natively on your Parch Linux system
+Comment[fa]=برنامه‌های اندروید را به صورت بومی روی سیستم پارچ لینوکس خود اجرا کنید
+Categories=GNOME;GTK;System;Utility;
+Exec=parchdroid
+Icon=com.parchlinux.parchdroid
+Terminal=false
+StartupNotify=true
+DBusActivatable=true
+X-GNOME-UsesNotifications=true

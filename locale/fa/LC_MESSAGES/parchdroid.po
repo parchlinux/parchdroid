@@ -1,0 +1,362 @@
+# Persian translations for Parchdroid
+# Copyright (C) 2026 Parch Linux
+# This file is distributed under the same license as the Parchdroid package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: parchdroid 1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-06-14 00:00+0000\n"
+"PO-Revision-Date: 2026-06-14 00:00+0000\n"
+"Last-Translator: \n"
+"Language-Team: Persian\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: main.py:18 ui/main_window.py:117
+msgid "Android App Support"
+msgstr "پشتیبانی از برنامه‌های اندروید"
+
+#: ui/main_window.py:60
+msgid "Refresh Status"
+msgstr "به‌روزرسانی وضعیت"
+
+#: ui/main_window.py:99
+msgid "Checking Your System"
+msgstr "در حال بررسی سیستم شما"
+
+#: ui/main_window.py:102
+msgid "Detecting configuration and status..."
+msgstr "در حال تشخیص پیکربندی و وضعیت..."
+
+#: ui/main_window.py:120
+msgid "Run Android applications natively on your Parch Linux system"
+msgstr "برنامه‌های اندروید را به صورت بومی روی سیستم پارچ لینوکس خود اجرا کنید"
+
+#: ui/main_window.py:127
+msgid "System Status"
+msgstr "وضعیت سیستم"
+
+#: ui/main_window.py:128
+msgid "Current configuration detected on your system"
+msgstr "پیکربندی فعلی تشخیص داده شده در سیستم شما"
+
+#: ui/main_window.py:130
+msgid "Installation Source"
+msgstr "منبع نصب"
+
+#: ui/main_window.py:135
+msgid "Kernel Support"
+msgstr "پشتیبانی کرنل"
+
+#: ui/main_window.py:141
+msgid "Get Started"
+msgstr "شروع کنید"
+
+#: ui/main_window.py:143
+msgid "Install Waydroid"
+msgstr "نصب ویدروید"
+
+#: ui/main_window.py:144
+msgid "Set up Android application support on your system"
+msgstr "راه‌اندازی پشتیبانی از برنامه‌های اندروید در سیستم شما"
+
+#: ui/main_window.py:150
+msgid "Install"
+msgstr "نصب"
+
+#: ui/main_window.py:167
+msgid "Quick Launch"
+msgstr "اجرای سریع"
+
+#: ui/main_window.py:169
+msgid "Launch Waydroid"
+msgstr "اجرای ویدروید"
+
+#: ui/main_window.py:170
+msgid "Start the Android environment"
+msgstr "شروع محیط اندروید"
+
+#: ui/main_window.py:174
+msgid "Launch"
+msgstr "اجرا"
+
+#: ui/main_window.py:179
+msgid "System Images"
+msgstr "تصاویر سیستم"
+
+#: ui/main_window.py:180
+msgid "Download and configure Android images"
+msgstr "دانلود و پیکربندی تصاویر اندروید"
+
+#: ui/main_window.py:183
+msgid "Vanilla Android"
+msgstr "اندروید خالص"
+
+#: ui/main_window.py:184
+msgid "Clean Android without Google services"
+msgstr "اندروید تمیز بدون سرویس‌های گوگل"
+
+#: ui/main_window.py:186
+msgid "Download"
+msgstr "دانلود"
+
+#: ui/main_window.py:189
+msgid "Google Apps (GApps)"
+msgstr "برنامه‌های گوگل (GApps)"
+
+#: ui/main_window.py:190
+msgid "Includes Google Play Store and services"
+msgstr "شامل فروشگاه گوگل پلی و سرویس‌ها"
+
+#: ui/main_window.py:197
+msgid "Application Management"
+msgstr "مدیریت برنامه‌ها"
+
+#: ui/main_window.py:199
+msgid "Install APK"
+msgstr "نصب APK"
+
+#: ui/main_window.py:200
+msgid "Sideload Android applications"
+msgstr "نصب جانبی برنامه‌های اندروید"
+
+#: ui/main_window.py:202
+msgid "Choose File"
+msgstr "انتخاب فایل"
+
+#: ui/main_window.py:207
+msgid "Session Control"
+msgstr "کنترل نشست"
+
+#: ui/main_window.py:209
+msgid "Start Session"
+msgstr "شروع نشست"
+
+#: ui/main_window.py:210
+msgid "Start Waydroid container and session"
+msgstr "شروع کانتینر و نشست ویدروید"
+
+#: ui/main_window.py:213
+msgid "Start"
+msgstr "شروع"
+
+#: ui/main_window.py:217
+msgid "Stop Session"
+msgstr "توقف نشست"
+
+#: ui/main_window.py:218
+msgid "Stop Waydroid session and container"
+msgstr "توقف نشست و کانتینر ویدروید"
+
+#: ui/main_window.py:221
+msgid "Stop"
+msgstr "توقف"
+
+#: ui/main_window.py:225
+msgid "Restart Session"
+msgstr "راه‌اندازی مجدد نشست"
+
+#: ui/main_window.py:226
+msgid "Restart Waydroid session"
+msgstr "راه‌اندازی مجدد نشست ویدروید"
+
+#: ui/main_window.py:229
+msgid "Restart"
+msgstr "راه‌اندازی مجدد"
+
+#: ui/main_window.py:243 ui/main_window.py:253 ui/main_window.py:586
+msgid "Reset"
+msgstr "بازنشانی"
+
+#: ui/main_window.py:245
+msgid "Reset Waydroid"
+msgstr "بازنشانی ویدروید"
+
+#: ui/main_window.py:246
+msgid "Delete and reinitialize Waydroid"
+msgstr "حذف و بازنشانی ویدروید"
+
+#: ui/main_window.py:255
+msgid "Status Information"
+msgstr "اطلاعات وضعیت"
+
+#: ui/main_window.py:257
+msgid "View Detailed Status"
+msgstr "مشاهده وضعیت جزئیات"
+
+#: ui/main_window.py:258
+msgid "Session, container, and system info"
+msgstr "اطلاعات نشست، کانتینر و سیستم"
+
+#: ui/main_window.py:260
+msgid "Session Status"
+msgstr "وضعیت نشست"
+
+#: ui/main_window.py:263
+msgid "Container Status"
+msgstr "وضعیت کانتینر"
+
+#: ui/main_window.py:266
+msgid "Android Version"
+msgstr "نسخه اندروید"
+
+#: ui/main_window.py:269
+msgid "Google Apps"
+msgstr "برنامه‌های گوگل"
+
+#: ui/main_window.py:272
+msgid "IP Address"
+msgstr "آدرس IP"
+
+#: ui/main_window.py:278
+msgid "Running"
+msgstr "در حال اجرا"
+
+#: ui/main_window.py:282
+msgid "Stopped"
+msgstr "متوقف شده"
+
+#: ui/main_window.py:289
+msgid "Active"
+msgstr "فعال"
+
+#: ui/main_window.py:291
+msgid "Inactive"
+msgstr "غیرفعال"
+
+#: ui/main_window.py:323
+msgid "Install Waydroid?"
+msgstr "ویدروید نصب شود؟"
+
+#: ui/main_window.py:510
+msgid "Installed"
+msgstr "نصب شده"
+
+#: ui/main_window.py:511
+msgid "Switch to GApps"
+msgstr "تغییر به GApps"
+
+#: ui/main_window.py:514
+msgid "Switch to Vanilla"
+msgstr "تغییر به خالص"
+
+#: ui/main_window.py:518
+msgid "Reinitialize Waydroid?"
+msgstr "ویدروید بازنشانی شود؟"
+
+#: ui/main_window.py:538
+msgid "Download Google Apps?"
+msgstr "برنامه‌های گوگل دانلود شود؟"
+
+#: ui/main_window.py:539
+msgid "Google Play requires device registration after installation."
+msgstr "گوگل پلی پس از نصب نیاز به ثبت دستگاه دارد."
+
+#: ui/main_window.py:556
+msgid "Proceed"
+msgstr "ادامه"
+
+#: ui/main_window.py:557
+msgid "Learn More"
+msgstr "بیشتر بدانید"
+
+#: ui/main_window.py:565
+msgid "Reset Waydroid?"
+msgstr "ویدروید بازنشانی شود؟"
+
+#: ui/main_window.py:566
+msgid "This will delete all Android data and reinitialize with new images."
+msgstr "این کار تمام داده‌های اندروید را حذف و با تصاویر جدید بازنشانی می‌کند."
+
+#: ui/main_window.py:569
+msgid "Image Type"
+msgstr "نوع تصویر"
+
+#: ui/main_window.py:582 ui/main_window.py:676 ui/main_window.py:706
+msgid "Cancel"
+msgstr "لغو"
+
+#: ui/main_window.py:620
+msgid "Preparing..."
+msgstr "در حال آماده‌سازی..."
+
+#: ui/main_window.py:671
+msgid "Done"
+msgstr "انجام شد"
+
+#: ui/main_window.py:684
+msgid "Operation Complete!"
+msgstr "عملیات کامل شد!"
+
+#: ui/main_window.py:686
+msgid "Operation Failed"
+msgstr "عملیات ناموفق"
+
+#: ui/main_window.py:694
+msgid "Installation Complete!"
+msgstr "نصب کامل شد!"
+
+#: ui/main_window.py:696
+msgid "Installation Failed"
+msgstr "نصب ناموفق"
+
+#: ui/main_window.py:700
+msgid "Authentication Required"
+msgstr "احراز هویت لازم است"
+
+#: ui/main_window.py:701
+msgid "Administrator privileges are required to continue."
+msgstr "دسترسی مدیر برای ادامه لازم است."
+
+#: ui/main_window.py:702
+msgid "Password"
+msgstr "رمز عبور"
+
+#: ui/main_window.py:707
+msgid "Authenticate"
+msgstr "تأیید هویت"
+
+#: ui/main_window.py:726
+msgid "About"
+msgstr "درباره"
+
+#: ui/main_window.py:727
+msgid "Quit"
+msgstr "خروج"
+
+#: ui/main_window.py:730
+msgid "Complete Waydroid management for Parch Linux"
+msgstr "مدیریت کامل ویدروید برای پارچ لینوکس"
+
+#: ui/main_window.py:731
+msgid "Parch Linux"
+msgstr "پارچ لینوکس"
+
+#: ui/main_window.py:734
+msgid "Contributors"
+msgstr "مشارکت‌کنندگان"
+
+#: ui/main_window.py:700
+msgid "All files"
+msgstr "همه فایل‌ها"
+
+#: ui/main_window.py:746
+msgid "Open Docs"
+msgstr "باز کردن مستندات"
+
+#: ui/main_window.py:539
+msgid "You'll need to register your device manually to use the Play Store."
+msgstr "برای استفاده از فروشگاه پلی باید دستگاه خود را به صورت دستی ثبت کنید."
+
+#: ui/main_window.py:694
+msgid "Waydroid installed successfully"
+msgstr "ویدروید با موفقیت نصب شد"
+
+#: ui/main_window.py:696
+msgid "Installation failed"
+msgstr "نصب ناموفق بود"
